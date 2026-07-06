@@ -1,0 +1,5 @@
+connected complexes tested: 919
+disconnected complexes skipped: 63
+(F,e) pairs tested (connected only): 6846
+DANGEROUS mismatches (iso=True but theorem fails): 0
+Overperformance (iso=False but theorem still holds anyway): 1372

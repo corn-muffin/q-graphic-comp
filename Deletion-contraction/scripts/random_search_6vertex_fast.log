@@ -1,0 +1,9 @@
+...progress: 800/1500 trials, 186 connected so far
+trials: 1500
+connected complexes tested: 325
+disconnected skipped: 13
+complexes with >=1 isolating edge on some F(|F|>=3): 297
+(F,e) pairs tested: 4170
+isolating & theorem holds (expected): 2098
+DANGEROUS mismatches (isolating but theorem FAILS): 0
+overperformance (non-isolating, theorem holds anyway): 535

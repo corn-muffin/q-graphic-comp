@@ -1,0 +1,1708 @@
+{
+  "full_simplex_4": {
+    "n": 4,
+    "maximal": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "n_contracted": 1,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^4 - 15*t^3 + 70*t^2 - 120*t + 64",
+            "chi_Delta_minus_F": "t^4 - 14*t^3 + 63*t^2 - 106*t + 56",
+            "chi_Delta_over_F": "t - 1",
+            "diff": "-t^3 + 7*t^2 - 14*t + 8",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 6*t - 8"
+          },
+          "3": {
+            "chi_Delta": "t^4 - 40*t^3 + 390*t^2 - 1080*t + 729",
+            "chi_Delta_minus_F": "t^4 - 32*t^3 + 286*t^2 - 768*t + 513",
+            "chi_Delta_over_F": "t - 1",
+            "diff": "-8*t^3 + 104*t^2 - 312*t + 216",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-8*t^2 + 96*t - 216"
+          }
+        }
+      }
+    ]
+  },
+  "boundary_simplex_4": {
+    "n": 4,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^4 - 14*t^3 + 63*t^2 - 106*t + 56",
+            "chi_Delta_minus_F": "t^4 - 13*t^3 + 56*t^2 - 92*t + 48",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^3 + 7*t^2 - 14*t + 8",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^4 - 32*t^3 + 286*t^2 - 768*t + 513",
+            "chi_Delta_minus_F": "t^4 - 28*t^3 + 234*t^2 - 612*t + 405",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-4*t^3 + 52*t^2 - 156*t + 108",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          3
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^4 - 14*t^3 + 63*t^2 - 106*t + 56",
+            "chi_Delta_minus_F": "t^4 - 13*t^3 + 56*t^2 - 92*t + 48",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^3 + 7*t^2 - 14*t + 8",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^4 - 32*t^3 + 286*t^2 - 768*t + 513",
+            "chi_Delta_minus_F": "t^4 - 28*t^3 + 234*t^2 - 612*t + 405",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-4*t^3 + 52*t^2 - 156*t + 108",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          2,
+          3
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^4 - 14*t^3 + 63*t^2 - 106*t + 56",
+            "chi_Delta_minus_F": "t^4 - 13*t^3 + 56*t^2 - 92*t + 48",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^3 + 7*t^2 - 14*t + 8",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^4 - 32*t^3 + 286*t^2 - 768*t + 513",
+            "chi_Delta_minus_F": "t^4 - 28*t^3 + 234*t^2 - 612*t + 405",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-4*t^3 + 52*t^2 - 156*t + 108",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      },
+      {
+        "F": [
+          1,
+          2,
+          3
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^4 - 14*t^3 + 63*t^2 - 106*t + 56",
+            "chi_Delta_minus_F": "t^4 - 13*t^3 + 56*t^2 - 92*t + 48",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^3 + 7*t^2 - 14*t + 8",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^4 - 32*t^3 + 286*t^2 - 768*t + 513",
+            "chi_Delta_minus_F": "t^4 - 28*t^3 + 234*t^2 - 612*t + 405",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-4*t^3 + 52*t^2 - 156*t + 108",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      }
+    ]
+  },
+  "full_simplex_5": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "n_contracted": 1,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 31*t^4 + 310*t^3 - 1240*t^2 + 1984*t - 1024",
+            "chi_Delta_minus_F": "t^5 - 30*t^4 + 295*t^3 - 1170*t^2 + 1864*t - 960",
+            "chi_Delta_over_F": "t - 1",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^3 + 14*t^2 - 56*t + 64"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 121*t^4 + 3630*t^3 - 32670*t^2 + 88209*t - 59049",
+            "chi_Delta_minus_F": "t^5 - 105*t^4 + 2990*t^3 - 26430*t^2 + 70929*t - 47385",
+            "chi_Delta_over_F": "t - 1",
+            "diff": "-16*t^4 + 640*t^3 - 6240*t^2 + 17280*t - 11664",
+            "divisible": 1,
+            "time": 3,
+            "quotient_p_F": "-16*t^3 + 624*t^2 - 5616*t + 11664"
+          }
+        }
+      }
+    ]
+  },
+  "boundary_simplex_5": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 30*t^4 + 295*t^3 - 1170*t^2 + 1864*t - 960",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 280*t^3 - 1100*t^2 + 1744*t - 896",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 12*t - 32"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 105*t^4 + 2990*t^3 - 26430*t^2 + 70929*t - 47385",
+            "chi_Delta_minus_F": "t^5 - 97*t^4 + 2670*t^3 - 23310*t^2 + 62289*t - 41553",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-8*t^4 + 320*t^3 - 3120*t^2 + 8640*t - 5832",
+            "divisible": 1,
+            "time": 3,
+            "quotient_p_F": "-8*t^2 + 288*t - 1944"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 30*t^4 + 295*t^3 - 1170*t^2 + 1864*t - 960",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 280*t^3 - 1100*t^2 + 1744*t - 896",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 12*t - 32"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 105*t^4 + 2990*t^3 - 26430*t^2 + 70929*t - 47385",
+            "chi_Delta_minus_F": "t^5 - 97*t^4 + 2670*t^3 - 23310*t^2 + 62289*t - 41553",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-8*t^4 + 320*t^3 - 3120*t^2 + 8640*t - 5832",
+            "divisible": 1,
+            "time": 3,
+            "quotient_p_F": "-8*t^2 + 288*t - 1944"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 30*t^4 + 295*t^3 - 1170*t^2 + 1864*t - 960",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 280*t^3 - 1100*t^2 + 1744*t - 896",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 12*t - 32"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 105*t^4 + 2990*t^3 - 26430*t^2 + 70929*t - 47385",
+            "chi_Delta_minus_F": "t^5 - 97*t^4 + 2670*t^3 - 23310*t^2 + 62289*t - 41553",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-8*t^4 + 320*t^3 - 3120*t^2 + 8640*t - 5832",
+            "divisible": 1,
+            "time": 3,
+            "quotient_p_F": "-8*t^2 + 288*t - 1944"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 30*t^4 + 295*t^3 - 1170*t^2 + 1864*t - 960",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 280*t^3 - 1100*t^2 + 1744*t - 896",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 12*t - 32"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 105*t^4 + 2990*t^3 - 26430*t^2 + 70929*t - 47385",
+            "chi_Delta_minus_F": "t^5 - 97*t^4 + 2670*t^3 - 23310*t^2 + 62289*t - 41553",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-8*t^4 + 320*t^3 - 3120*t^2 + 8640*t - 5832",
+            "divisible": 1,
+            "time": 3,
+            "quotient_p_F": "-8*t^2 + 288*t - 1944"
+          }
+        }
+      },
+      {
+        "F": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 30*t^4 + 295*t^3 - 1170*t^2 + 1864*t - 960",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 280*t^3 - 1100*t^2 + 1744*t - 896",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 12*t - 32"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 105*t^4 + 2990*t^3 - 26430*t^2 + 70929*t - 47385",
+            "chi_Delta_minus_F": "t^5 - 97*t^4 + 2670*t^3 - 23310*t^2 + 62289*t - 41553",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-8*t^4 + 320*t^3 - 3120*t^2 + 8640*t - 5832",
+            "divisible": 1,
+            "time": 3,
+            "quotient_p_F": "-8*t^2 + 288*t - 1944"
+          }
+        }
+      }
+    ]
+  },
+  "skeleton_5_3": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          3
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          2,
+          3
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          2,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          1,
+          2,
+          3
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          1,
+          2,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          1,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      },
+      {
+        "F": [
+          2,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 25*t^4 + 220*t^3 - 820*t^2 + 1264*t - 640",
+            "chi_Delta_minus_F": "t^5 - 24*t^4 + 205*t^3 - 750*t^2 + 1144*t - 576",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 65*t^4 + 1390*t^3 - 10830*t^2 + 27729*t - 18225",
+            "chi_Delta_minus_F": "t^5 - 61*t^4 + 1246*t^3 - 9478*t^2 + 24033*t - 15741",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 144*t^3 - 1352*t^2 + 3696*t - 2484",
+            "divisible": 1,
+            "time": 2,
+            "quotient_p_F": "-4*t + 92"
+          }
+        }
+      }
+    ]
+  },
+  "cone_A": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 130*t^3 - 400*t^2 + 544*t - 256",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 119*t^3 - 358*t^2 + 480*t - 224",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 8*t - 16"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 750*t^3 - 4590*t^2 + 10449*t - 6561",
+            "chi_Delta_minus_F": "t^5 - 41*t^4 + 574*t^3 - 3342*t^2 + 7425*t - 4617",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-8*t^4 + 176*t^3 - 1248*t^2 + 3024*t - 1944",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-8*t^2 + 144*t - 648"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 130*t^3 - 400*t^2 + 544*t - 256",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 115*t^3 - 330*t^2 + 424*t - 192",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 750*t^3 - 4590*t^2 + 10449*t - 6561",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 590*t^3 - 3030*t^2 + 6129*t - 3645",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 160*t^3 - 1560*t^2 + 4320*t - 2916",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 108"
+          }
+        }
+      }
+    ]
+  },
+  "cone_B": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 130*t^3 - 400*t^2 + 544*t - 256",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 119*t^3 - 358*t^2 + 480*t - 224",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t^2 + 8*t - 16"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 750*t^3 - 4590*t^2 + 10449*t - 6561",
+            "chi_Delta_minus_F": "t^5 - 41*t^4 + 574*t^3 - 3342*t^2 + 7425*t - 4617",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-8*t^4 + 176*t^3 - 1248*t^2 + 3024*t - 1944",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-8*t^2 + 144*t - 648"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 130*t^3 - 400*t^2 + 544*t - 256",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 115*t^3 - 330*t^2 + 424*t - 192",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 750*t^3 - 4590*t^2 + 10449*t - 6561",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 590*t^3 - 3030*t^2 + 6129*t - 3645",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 160*t^3 - 1560*t^2 + 4320*t - 2916",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 108"
+          }
+        }
+      }
+    ]
+  },
+  "nocone_C": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 14*t^4 + 75*t^3 - 190*t^2 + 224*t - 96",
+            "chi_Delta_minus_F": "t^5 - 13*t^4 + 65*t^3 - 155*t^2 + 174*t - 72",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 10*t^3 - 35*t^2 + 50*t - 24",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 3"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 27*t^4 + 266*t^3 - 1158*t^2 + 2133*t - 1215",
+            "chi_Delta_minus_F": "t^5 - 23*t^4 + 194*t^3 - 742*t^2 + 1245*t - 675",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 72*t^3 - 416*t^2 + 888*t - 540",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 20"
+          }
+        }
+      },
+      {
+        "F": [
+          2,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 14*t^4 + 75*t^3 - 190*t^2 + 224*t - 96",
+            "chi_Delta_minus_F": "t^5 - 13*t^4 + 65*t^3 - 155*t^2 + 174*t - 72",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 10*t^3 - 35*t^2 + 50*t - 24",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 3"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 27*t^4 + 266*t^3 - 1158*t^2 + 2133*t - 1215",
+            "chi_Delta_minus_F": "t^5 - 23*t^4 + 194*t^3 - 742*t^2 + 1245*t - 675",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 72*t^3 - 416*t^2 + 888*t - 540",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 20"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          4
+        ],
+        "n_contracted": 4,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 14*t^4 + 75*t^3 - 190*t^2 + 224*t - 96",
+            "chi_Delta_minus_F": "t^5 - 13*t^4 + 64*t^3 - 148*t^2 + 160*t - 64",
+            "chi_Delta_over_F": "t^4 - 11*t^3 + 42*t^2 - 64*t + 32",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": -1
+          },
+          "3": {
+            "chi_Delta": "t^5 - 27*t^4 + 266*t^3 - 1158*t^2 + 2133*t - 1215",
+            "chi_Delta_minus_F": "t^5 - 25*t^4 + 222*t^3 - 846*t^2 + 1377*t - 729",
+            "chi_Delta_over_F": "t^4 - 22*t^3 + 156*t^2 - 378*t + 243",
+            "diff": "-2*t^4 + 44*t^3 - 312*t^2 + 756*t - 486",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": -2
+          }
+        }
+      }
+    ]
+  },
+  "nocone_D": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        0,
+        1
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 16*t^4 + 97*t^3 - 274*t^2 + 352*t - 160",
+            "chi_Delta_minus_F": "t^5 - 15*t^4 + 86*t^3 - 232*t^2 + 288*t - 128",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 33*t^4 + 398*t^3 - 2094*t^2 + 4401*t - 2673",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 310*t^3 - 1470*t^2 + 2889*t - 1701",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 88*t^3 - 624*t^2 + 1512*t - 972",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      },
+      {
+        "F": [
+          2,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 16*t^4 + 97*t^3 - 274*t^2 + 352*t - 160",
+            "chi_Delta_minus_F": "t^5 - 15*t^4 + 85*t^3 - 225*t^2 + 274*t - 120",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 12*t^3 - 49*t^2 + 78*t - 40",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 5"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 33*t^4 + 398*t^3 - 2094*t^2 + 4401*t - 2673",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 302*t^3 - 1366*t^2 + 2577*t - 1485",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 96*t^3 - 728*t^2 + 1824*t - 1188",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 44"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 16*t^4 + 97*t^3 - 274*t^2 + 352*t - 160",
+            "chi_Delta_minus_F": "t^5 - 15*t^4 + 86*t^3 - 232*t^2 + 288*t - 128",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 33*t^4 + 398*t^3 - 2094*t^2 + 4401*t - 2673",
+            "chi_Delta_minus_F": "t^5 - 29*t^4 + 310*t^3 - 1470*t^2 + 2889*t - 1701",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 88*t^3 - 624*t^2 + 1512*t - 972",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      }
+    ]
+  },
+  "cone_E": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 13*t^4 + 64*t^3 - 148*t^2 + 160*t - 64",
+            "chi_Delta_minus_F": "t^5 - 12*t^4 + 55*t^3 - 120*t^2 + 124*t - 48",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 9*t^3 - 28*t^2 + 36*t - 16",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 2"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 25*t^4 + 222*t^3 - 846*t^2 + 1377*t - 729",
+            "chi_Delta_minus_F": "t^5 - 21*t^4 + 158*t^3 - 534*t^2 + 801*t - 405",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 64*t^3 - 312*t^2 + 576*t - 324",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 12"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 13*t^4 + 64*t^3 - 148*t^2 + 160*t - 64",
+            "chi_Delta_minus_F": "t^5 - 12*t^4 + 55*t^3 - 120*t^2 + 124*t - 48",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 9*t^3 - 28*t^2 + 36*t - 16",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 2"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 25*t^4 + 222*t^3 - 846*t^2 + 1377*t - 729",
+            "chi_Delta_minus_F": "t^5 - 21*t^4 + 158*t^3 - 534*t^2 + 801*t - 405",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 64*t^3 - 312*t^2 + 576*t - 324",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 12"
+          }
+        }
+      }
+    ]
+  },
+  "book_2pages": {
+    "n": 4,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^4 - 11*t^3 + 42*t^2 - 64*t + 32",
+            "chi_Delta_minus_F": "t^4 - 10*t^3 + 35*t^2 - 50*t + 24",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^3 + 7*t^2 - 14*t + 8",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^4 - 22*t^3 + 156*t^2 - 378*t + 243",
+            "chi_Delta_minus_F": "t^4 - 18*t^3 + 104*t^2 - 222*t + 135",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-4*t^3 + 52*t^2 - 156*t + 108",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          3
+        ],
+        "n_contracted": 2,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^4 - 11*t^3 + 42*t^2 - 64*t + 32",
+            "chi_Delta_minus_F": "t^4 - 10*t^3 + 35*t^2 - 50*t + 24",
+            "chi_Delta_over_F": "t^2 - 3*t + 2",
+            "diff": "-t^3 + 7*t^2 - 14*t + 8",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 4"
+          },
+          "3": {
+            "chi_Delta": "t^4 - 22*t^3 + 156*t^2 - 378*t + 243",
+            "chi_Delta_minus_F": "t^4 - 18*t^3 + 104*t^2 - 222*t + 135",
+            "chi_Delta_over_F": "t^2 - 4*t + 3",
+            "diff": "-4*t^3 + 52*t^2 - 156*t + 108",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-4*t + 36"
+          }
+        }
+      }
+    ]
+  },
+  "book_3pages": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 15*t^4 + 86*t^3 - 232*t^2 + 288*t - 128",
+            "chi_Delta_minus_F": "t^5 - 14*t^4 + 75*t^3 - 190*t^2 + 224*t - 96",
+            "chi_Delta_over_F": "t^3 - 5*t^2 + 8*t - 4",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 0,
+            "time": 0,
+            "quotient_p_F": null,
+            "diff_over_chi_con_as_fraction": "(-t^2 + 8*t - 16)/(t - 2)"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 31*t^4 + 354*t^3 - 1782*t^2 + 3645*t - 2187",
+            "chi_Delta_minus_F": "t^5 - 27*t^4 + 266*t^3 - 1158*t^2 + 2133*t - 1215",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 15*t - 9",
+            "diff": "-4*t^4 + 88*t^3 - 624*t^2 + 1512*t - 972",
+            "divisible": 0,
+            "time": 0,
+            "quotient_p_F": null,
+            "diff_over_chi_con_as_fraction": "(-4*t^2 + 72*t - 324)/(t - 3)"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          3
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 15*t^4 + 86*t^3 - 232*t^2 + 288*t - 128",
+            "chi_Delta_minus_F": "t^5 - 14*t^4 + 75*t^3 - 190*t^2 + 224*t - 96",
+            "chi_Delta_over_F": "t^3 - 5*t^2 + 8*t - 4",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 0,
+            "time": 0,
+            "quotient_p_F": null,
+            "diff_over_chi_con_as_fraction": "(-t^2 + 8*t - 16)/(t - 2)"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 31*t^4 + 354*t^3 - 1782*t^2 + 3645*t - 2187",
+            "chi_Delta_minus_F": "t^5 - 27*t^4 + 266*t^3 - 1158*t^2 + 2133*t - 1215",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 15*t - 9",
+            "diff": "-4*t^4 + 88*t^3 - 624*t^2 + 1512*t - 972",
+            "divisible": 0,
+            "time": 0,
+            "quotient_p_F": null,
+            "diff_over_chi_con_as_fraction": "(-4*t^2 + 72*t - 324)/(t - 3)"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 15*t^4 + 86*t^3 - 232*t^2 + 288*t - 128",
+            "chi_Delta_minus_F": "t^5 - 14*t^4 + 75*t^3 - 190*t^2 + 224*t - 96",
+            "chi_Delta_over_F": "t^3 - 5*t^2 + 8*t - 4",
+            "diff": "-t^4 + 11*t^3 - 42*t^2 + 64*t - 32",
+            "divisible": 0,
+            "time": 0,
+            "quotient_p_F": null,
+            "diff_over_chi_con_as_fraction": "(-t^2 + 8*t - 16)/(t - 2)"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 31*t^4 + 354*t^3 - 1782*t^2 + 3645*t - 2187",
+            "chi_Delta_minus_F": "t^5 - 27*t^4 + 266*t^3 - 1158*t^2 + 2133*t - 1215",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 15*t - 9",
+            "diff": "-4*t^4 + 88*t^3 - 624*t^2 + 1512*t - 972",
+            "divisible": 0,
+            "time": 0,
+            "quotient_p_F": null,
+            "diff_over_chi_con_as_fraction": "(-4*t^2 + 72*t - 324)/(t - 3)"
+          }
+        }
+      }
+    ]
+  },
+  "book_3pages_plus_opposite_triangle": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 136*t^3 - 442*t^2 + 628*t - 304",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 123*t^3 - 386*t^2 + 536*t - 256",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 41*t^4 + 622*t^3 - 3966*t^2 + 9297*t - 5913",
+            "chi_Delta_minus_F": "t^5 - 37*t^4 + 510*t^3 - 3030*t^2 + 6849*t - 4293",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          3
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 136*t^3 - 442*t^2 + 628*t - 304",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 123*t^3 - 386*t^2 + 536*t - 256",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 41*t^4 + 622*t^3 - 3966*t^2 + 9297*t - 5913",
+            "chi_Delta_minus_F": "t^5 - 37*t^4 + 510*t^3 - 3030*t^2 + 6849*t - 4293",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 136*t^3 - 442*t^2 + 628*t - 304",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 123*t^3 - 386*t^2 + 536*t - 256",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 41*t^4 + 622*t^3 - 3966*t^2 + 9297*t - 5913",
+            "chi_Delta_minus_F": "t^5 - 37*t^4 + 510*t^3 - 3030*t^2 + 6849*t - 4293",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          2,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 19*t^4 + 136*t^3 - 442*t^2 + 628*t - 304",
+            "chi_Delta_minus_F": "t^5 - 18*t^4 + 121*t^3 - 372*t^2 + 508*t - 240",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 15*t^3 - 70*t^2 + 120*t - 64",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 8"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 41*t^4 + 622*t^3 - 3966*t^2 + 9297*t - 5913",
+            "chi_Delta_minus_F": "t^5 - 37*t^4 + 494*t^3 - 2822*t^2 + 6225*t - 3861",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 128*t^3 - 1144*t^2 + 3072*t - 2052",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 76"
+          }
+        }
+      }
+    ]
+  },
+  "book_3pages_plus_cone0": {
+    "n": 5,
+    "maximal": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        3,
+        4
+      ]
+    ],
+    "faces": [
+      {
+        "F": [
+          0,
+          1,
+          2
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 21*t^4 + 160*t^3 - 540*t^2 + 784*t - 384",
+            "chi_Delta_minus_F": "t^5 - 20*t^4 + 147*t^3 - 484*t^2 + 692*t - 336",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 822*t^3 - 5526*t^2 + 13257*t - 8505",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 710*t^3 - 4590*t^2 + 10809*t - 6885",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          3
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 21*t^4 + 160*t^3 - 540*t^2 + 784*t - 384",
+            "chi_Delta_minus_F": "t^5 - 20*t^4 + 147*t^3 - 484*t^2 + 692*t - 336",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 822*t^3 - 5526*t^2 + 13257*t - 8505",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 710*t^3 - 4590*t^2 + 10809*t - 6885",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          1,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 21*t^4 + 160*t^3 - 540*t^2 + 784*t - 384",
+            "chi_Delta_minus_F": "t^5 - 20*t^4 + 147*t^3 - 484*t^2 + 692*t - 336",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 822*t^3 - 5526*t^2 + 13257*t - 8505",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 710*t^3 - 4590*t^2 + 10809*t - 6885",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          2,
+          3
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 21*t^4 + 160*t^3 - 540*t^2 + 784*t - 384",
+            "chi_Delta_minus_F": "t^5 - 20*t^4 + 147*t^3 - 484*t^2 + 692*t - 336",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 822*t^3 - 5526*t^2 + 13257*t - 8505",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 710*t^3 - 4590*t^2 + 10809*t - 6885",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          2,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 21*t^4 + 160*t^3 - 540*t^2 + 784*t - 384",
+            "chi_Delta_minus_F": "t^5 - 20*t^4 + 147*t^3 - 484*t^2 + 692*t - 336",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 822*t^3 - 5526*t^2 + 13257*t - 8505",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 710*t^3 - 4590*t^2 + 10809*t - 6885",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      },
+      {
+        "F": [
+          0,
+          3,
+          4
+        ],
+        "n_contracted": 3,
+        "per_q": {
+          "2": {
+            "chi_Delta": "t^5 - 21*t^4 + 160*t^3 - 540*t^2 + 784*t - 384",
+            "chi_Delta_minus_F": "t^5 - 20*t^4 + 147*t^3 - 484*t^2 + 692*t - 336",
+            "chi_Delta_over_F": "t^3 - 7*t^2 + 14*t - 8",
+            "diff": "-t^4 + 13*t^3 - 56*t^2 + 92*t - 48",
+            "divisible": 1,
+            "time": 0,
+            "quotient_p_F": "-t + 6"
+          },
+          "3": {
+            "chi_Delta": "t^5 - 49*t^4 + 822*t^3 - 5526*t^2 + 13257*t - 8505",
+            "chi_Delta_minus_F": "t^5 - 45*t^4 + 710*t^3 - 4590*t^2 + 10809*t - 6885",
+            "chi_Delta_over_F": "t^3 - 13*t^2 + 39*t - 27",
+            "diff": "-4*t^4 + 112*t^3 - 936*t^2 + 2448*t - 1620",
+            "divisible": 1,
+            "time": 1,
+            "quotient_p_F": "-4*t + 60"
+          }
+        }
+      }
+    ]
+  }
+}

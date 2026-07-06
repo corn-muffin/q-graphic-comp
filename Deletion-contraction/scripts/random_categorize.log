@@ -1,0 +1,3 @@
+(F,e) pairs tested: 6930
+DANGEROUS mismatches (iso=True but theorem fails): 0
+Overperformance (iso=False but theorem still holds anyway): 1372

@@ -1,0 +1,23 @@
+=== full_simplex_5 (q=5) ===
+  n=5, q=5: 781 hyperplanes (fast method)
+  total flats: 42176
+  chi_D done in 187.2s: (t - 625) * (t - 125) * (t - 25) * (t - 5) * (t - 1)
+  n=5, q=5: 525 hyperplanes (fast method)
+  total flats: 41920
+  chi_Ddel done in 127.8s: (t - 369) * (t - 125) * (t - 25) * (t - 5) * (t - 1)
+  n=1, q=5: 1 hyperplanes (fast method)
+  total flats: 2
+  chi_Dcon done in 0.0s: t - 1
+  divisible=True  quotient/frac=-256*t^3 + 39680*t^2 - 992000*t + 4000000
+=== boundary_simplex_5 (q=5) ===
+  n=5, q=5: 525 hyperplanes (fast method)
+  total flats: 41920
+  chi_D done in 127.6s: (t - 369) * (t - 125) * (t - 25) * (t - 5) * (t - 1)
+  n=5, q=5: 461 hyperplanes (fast method)
+  total flats: 41792
+  chi_Ddel done in 114.3s: (t - 305) * (t - 125) * (t - 25) * (t - 5) * (t - 1)
+  n=2, q=5: 6 hyperplanes (fast method)
+  total flats: 8
+  chi_Dcon done in 0.0s: (t - 5) * (t - 1)
+  divisible=True  quotient/frac=-64*t^2 + 9600*t - 200000
+ALL DONE

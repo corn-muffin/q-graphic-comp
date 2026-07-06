@@ -1,0 +1,1 @@
+/usr/local/bin/sage: line 39:  9959 Terminated: 15          /usr/bin/env PYTHONUSERBASE="$USERBASE" SSL_CERT_FILE="$SSL_CERT_FILE" "$SYMLINK"/venv/bin/sage "$@"
