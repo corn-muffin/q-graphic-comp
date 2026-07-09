@@ -186,7 +186,7 @@ for G in skeleta:
             counter_examples.append((delta.facets(),"wc conj fails"))
 
         l = len(proj_dims)
-        if l % (t+2)==t+1:
+        if l % (t+2)==0:
             pd_skel = proj_dims[l-t-2]
             pd_clique = proj_dims[l-1]
             if pd_skel<pd_clique:
