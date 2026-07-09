@@ -130,22 +130,24 @@ def compute_proj_dim(A,q):
 #     return compute_proj_dim(A,q)
           
 
-n = 5 # Number of vertices
+n = 7 # Number of vertices
 d = 1 # Dimension of complex
 p1 = 0.5 # Probability of including a given edge in 1-skeleton
 p2 = 0.5 # Probability of including a face from the clique complex
-s = 10 # Number of 1-skeleta to generate
-t = 1 # Number of extensions of a given 1-skeleton
+s = 20 # Number of 1-skeleta to generate
+t = 0 # Number of extensions of a given 1-skeleton
 q = 2 # The finite field.
 include_skeleta = 1
+include_clique = 1
 
 skeleta = sample_complexes(n,d,p1,s)
 
 #print("working1")
-num_cxs = s*(t+include_skeleta)
+num_cxs = s*(t+include_skeleta + include_clique)
 total_correct = 0
 progress = 1
 skeleta_tested = 0
+tested_complexes = []
 counter_examples = []
 proj_dims = []
 for G in skeleta:
@@ -155,6 +157,8 @@ for G in skeleta:
     complexes = complexes_on_skeleta(G,p2,t)
     if include_skeleta:
         complexes.append(G)
+    if include_clique:
+        complexes.append(G.graph().clique_complex())
     #print("working3")
     #complexes = [extend_complex(G,p2)]
     w = G.graph().is_weakly_chordal()
@@ -165,20 +169,40 @@ for G in skeleta:
 
         print(delta.facets())
         print("G weakly chordal: " + str(w))
-        print("Delta is flag: " + str(delta.is_flag_complex()))
+        print("G chordal: " + str(c))
+        #print("Delta is flag: " + str(delta.is_flag_complex()))
         A = q_graphic_arrangement(delta,q)
+        print(A)
         pd = int(compute_proj_dim(A,q))
+        print("Its projective dimension is: "+str(pd))
+
         proj_dims.append(pd)
-        print("its projective dimension is: "+str(pd))
+        tested_complexes.append(delta.facets())
         if (pd<=1 and w) or (pd>1 and not w):
-            print("Exactly what we expect!")
+            print("PD bound is correct")
             total_correct+=1
         else:
             print("Something is wrong!")
-            counter_examples.append(delta)
+            counter_examples.append((delta.facets(),"wc conj fails"))
+
+        l = len(proj_dims)
+        if l % (t+2)==t+1:
+            pd_skel = proj_dims[l-t-2]
+            pd_clique = proj_dims[l-1]
+            if pd_skel<pd_clique:
+                print("Clique bound is proper!")
+            if pd_skel<=pd_clique:
+                print("Clique bound holds.")
+            else:
+                print("Clique bound fails!")
+                counter_examples.append((delta.facets(),pd_skel,pd_clique,"Clique bound fails"))
 
         progress += 1
         print("")
 
     #progress += 1
+    print("One skeleton done!")
     print("")
+print(tested_complexes)
+print(proj_dims)
+print(counter_examples)
