@@ -8,7 +8,7 @@ def q_graphic_arrangement(delta,q):
     if delta.vertices() != tuple([0..n-1]):
         raise ValueError("Simplicial complex must be 0-indexed!")
 
-    K = GF(q,'a')
+    K = QQ[
     H = HyperplaneArrangements(K,tuple('x'+str(i) for i in [0..n-1]))
     x = H.gens()
 
@@ -35,6 +35,41 @@ def q_graphic_arrangement(delta,q):
                 A = A.add_hyperplane(sum(a[i]*x[i] for i in [0..n-1]))
     return A
 
+# Take a (0-indexed) simplicial complex delta and return the corresponding graphic arrangement
+def graphic_arrangement(delta):
+    n = len(delta.vertices())
+
+    if delta.vertices() != tuple([0..n-1]):
+        raise ValueError("Simplicial complex must be 0-indexed!")
+
+    K = QQ
+    H = HyperplaneArrangements(K,tuple('x'+str(i) for i in [0..n-1]))
+    x = H.gens()
+
+    facets = delta.maximal_faces()
+
+    A = H()
+    for face in facets:
+        m = dim(face) + 1 # Number of vertices of face
+        V = VectorSpace(K,m) # m-tuples of coefficients for hyperplanes
+
+        A.add_hyperplane()
+
+        for v in V:
+            if v != V.zero_vector():
+                j = 0
+                a = [] # Coefficients
+
+                # Insert coefficients from vector to entries of a indexed by face
+                for i in [0..n-1]:
+                    if i in face:
+                        a.append(v[j])
+                        j += 1
+                    else:
+                        a.append(0)
+                
+                A = A.add_hyperplane(sum(a[i]*x[i] for i in [0..n-1]))
+    return A
 
 # Compute characteristic polynomial of q-graphic arrangement associated to a simplicial complex delta for fixed q
 def q_graphic_char_polynomial(delta,q):
