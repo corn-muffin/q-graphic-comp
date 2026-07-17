@@ -7,8 +7,8 @@ def q_graphic_arrangement(delta,q):
 
     if delta.vertices() != tuple([0..n-1]):
         raise ValueError("Simplicial complex must be 0-indexed!")
-
-    K = QQ[
+    
+    K = GF(q)
     H = HyperplaneArrangements(K,tuple('x'+str(i) for i in [0..n-1]))
     x = H.gens()
 
@@ -36,39 +36,29 @@ def q_graphic_arrangement(delta,q):
     return A
 
 # Take a (0-indexed) simplicial complex delta and return the corresponding graphic arrangement
-def graphic_arrangement(delta):
-    n = len(delta.vertices())
+def graphic_arrangement(G):
+    n = len(G.vertices())
 
-    if delta.vertices() != tuple([0..n-1]):
-        raise ValueError("Simplicial complex must be 0-indexed!")
+    # if G.vertices() != tuple([0..n-1]):
+    #     raise ValueError("Simplicial complex must be 0-indexed!")
 
     K = QQ
     H = HyperplaneArrangements(K,tuple('x'+str(i) for i in [0..n-1]))
     x = H.gens()
 
-    facets = delta.maximal_faces()
-
     A = H()
-    for face in facets:
-        m = dim(face) + 1 # Number of vertices of face
-        V = VectorSpace(K,m) # m-tuples of coefficients for hyperplanes
+    for edge in G.edges():
+        a = []
+        for i in [0..n-1]:
+            if i == edge[0]:
+                a.append(1)
+            elif i == edge[1]:
+                a.append(-1)
+            else:
+                a.append(0)
 
-        A.add_hyperplane()
+        A = A.add_hyperplane(sum(a[i]*x[i] for i in [0..n-1]))
 
-        for v in V:
-            if v != V.zero_vector():
-                j = 0
-                a = [] # Coefficients
-
-                # Insert coefficients from vector to entries of a indexed by face
-                for i in [0..n-1]:
-                    if i in face:
-                        a.append(v[j])
-                        j += 1
-                    else:
-                        a.append(0)
-                
-                A = A.add_hyperplane(sum(a[i]*x[i] for i in [0..n-1]))
     return A
 
 # Compute characteristic polynomial of q-graphic arrangement associated to a simplicial complex delta for fixed q
@@ -168,8 +158,8 @@ def compute_proj_dim(A,q):
 n = 8 # Number of vertices
 d = 1 # Dimension of complex
 p1 = 0.4 # Probability of including a given edge in 1-skeleton
-p2 = 0.5 # Probability of including a face from the clique complex
-s = 10 # Number of 1-skeleta to generate
+p2 = 0 # Probability of including a face from the clique complex
+s = 1000 # Number of 1-skeleta to generate
 t = 0 # Number of extensions of a given 1-skeleton
 q = 2 # The finite field.
 include_skeleta = 1
@@ -200,6 +190,7 @@ for G in skeleta:
     c = G.graph().is_chordal()
 
     for delta in complexes:
+        delta = delta.n_skeleton(1)
         print("######################################### (" + str(progress) + "/" + str(num_cxs) + ")")
 
         print(delta.facets())
@@ -207,9 +198,15 @@ for G in skeleta:
         print("G chordal: " + str(c))
         #print("Delta is flag: " + str(delta.is_flag_complex()))
         A = q_graphic_arrangement(delta,q)
+        A_graphic = graphic_arrangement(delta.graph())
         print(A)
+        print(A_graphic)
         pd = int(compute_proj_dim(A,q))
-        print("Its projective dimension is: "+str(pd))
+        pd_graphic = int(compute_proj_dim(A_graphic,q))
+        print("S^q_G has projective dimension: " + str(pd))
+        print("A_G has projective dimension: " + str(pd_graphic))
+        if pd != pd_graphic:
+            print("q-closure fails!")
 
         proj_dims.append(pd)
         tested_complexes.append(delta.facets())
